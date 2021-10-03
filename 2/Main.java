@@ -31,10 +31,10 @@ public class Main {
 
     // 命令実行の文
     // 改行せずに文字を表示する、System.out.print();
-    String name = "すがわら";
-    System.out.print("私の名前は");
-    System.out.print(name);
-    System.out.print("です");
+    // String name = "すがわら";
+    // System.out.print("私の名前は");
+    // System.out.print(name);
+    // System.out.print("です");
 
     // 2つの値を比較して大きいほうの数値を代入する命令
     // int m = Math.max(a, b);
@@ -58,7 +58,7 @@ public class Main {
 
       //キーボードから1行の入力を受けとる命令
       System.out.println("あなたの名前を入力してください。");
-      String s = new java.util.Scanner(System.in).nextLine();//キーボードから1行の文字列の入力を受けつける
+      String name = new java.util.Scanner(System.in).nextLine();//キーボードから1行の文字列の入力を受けつける
       System.out.println("あなたの年齢を入力してください。");
       int age  = new java.util.Scanner(System.in).nextInt();//キーボードから1つの整数の入力を受けつける
       System.out.println("ようこそ" + age + "歳の" + name + "さん");
