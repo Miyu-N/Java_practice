@@ -50,6 +50,11 @@ public class Main {
     int n = Integer.parseInt(age);
     System.out.println
       ("あなたは来年、" + (n + 1) + "歳になりますね。");
+
+      //乱数を発生させる
+      //int r = new java.util.Random() .nextInt();
+      int r = new java.util.Random() .nextInt(90);
+      System.out.println("あなたはたぶん、" + r + "歳ですね？");//実行するたび結果は変わる
   }
 
 
