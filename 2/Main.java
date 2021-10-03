@@ -46,15 +46,24 @@ public class Main {
 
     //文字列を数値に変換する
     // int n = Integer.parseInt();
-    String age = "31";
-    int n = Integer.parseInt(age);
-    System.out.println
-      ("あなたは来年、" + (n + 1) + "歳になりますね。");
+    // String age = "31";
+    // int n = Integer.parseInt(age);
+    // System.out.println
+    //   ("あなたは来年、" + (n + 1) + "歳になりますね。");
 
       //乱数を発生させる
       //int r = new java.util.Random() .nextInt();
       int r = new java.util.Random() .nextInt(90);
       System.out.println("あなたはたぶん、" + r + "歳ですね？");//実行するたび結果は変わる
+
+      //キーボードから1行の入力を受けとる命令
+      System.out.println("あなたの名前を入力してください。");
+      String s = new java.util.Scanner(System.in).nextLine();//キーボードから1行の文字列の入力を受けつける
+      System.out.println("あなたの年齢を入力してください。");
+      int age  = new java.util.Scanner(System.in).nextInt();//キーボードから1つの整数の入力を受けつける
+      System.out.println("ようこそ" + age + "歳の" + name + "さん");
+
+
   }
 
 
